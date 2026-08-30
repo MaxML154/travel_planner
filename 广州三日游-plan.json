@@ -1,0 +1,467 @@
+{
+  "title": "广州三日公共交通",
+  "city": "广州",
+  "dayCount": 3,
+  "startDate": "2026-09-02",
+  "dates": ["2026-09-02", "2026-09-03", "2026-09-04"],
+  "transport_mode": "公共交通",
+  "origin": "广州南站",
+  "destination": "广州南站",
+  "budget": 2700,
+  "disclaimer": "基于查询当日数据；价格/天气/营业时间会变。陈家祠需实名预约。小红书笔记为交叉验证，不代替现场排队与菜单。",
+  "preTrip": {
+    "budget": "3人合计预算约¥2700；餐饮按早餐¥20/人、午餐¥30–60/人、晚餐¥80–100/人估算，上下九美食街晚餐按¥200整单。",
+    "weather": "9/2 多云 23–30℃；9/3 多云 23–30℃；9/4 雷阵雨转多云 24–30℃（weather.com.cn）",
+    "parking": "全程地铁+步行，不住增城/花都/南沙",
+    "vehicle": "公共交通",
+    "notes": "9/2 08:00 抵广州南，无早餐；9/4 17:00 广州南离开，当天仅早餐+晚餐。同一家酒店 9/2 入住、9/4 离店（2晚）。"
+  },
+  "weather": {
+    "city": "广州",
+    "source": "weather-skill",
+    "note": "行程日在预报窗内",
+    "forecast": [
+      {"date": "2026-09-02", "weather": "多云", "temp_low": "23℃", "temp_high": "30℃"},
+      {"date": "2026-09-03", "weather": "多云", "temp_low": "23℃", "temp_high": "30℃"},
+      {"date": "2026-09-04", "weather": "雷阵雨转多云", "temp_low": "24℃", "temp_high": "30℃"}
+    ]
+  },
+  "reminders": [
+    {"item": "陈家祠官方渠道实名预约（成人¥10，现场无售票窗口）", "leadDays": 2},
+    {"item": "确认广州南 9/4 17:00 车次，预留下午地铁时间", "leadDays": 1},
+    {"item": "9/4 带折叠伞（雷阵雨转多云）", "leadDays": 0}
+  ],
+  "hotelAreas": [
+    {
+      "name": "荔湾·上下九 / 长寿路",
+      "reason": "飞猪价¥274/晚、舒适型；步行到上下九、陈家祠早茶均在 1 km 内，避开增城/花都廉价干扰结果。",
+      "options": [
+        {
+          "name": "麗枫酒店·广州长寿东路十三行上下九店",
+          "price": "¥274/晚",
+          "tier": "舒适型",
+          "note": "光复中路288号光复大厦北门；地铁8号线华林寺站。9/2–9/4 共2晚。",
+          "lat": 23.117999,
+          "lng": 113.251798,
+          "image_url": "https://img.alicdn.com/imgextra/i1/6000000001319/O1CN01zdqr991Lc92QLY5hT_!!6000000001319-0-hotel.jpg",
+          "booking_url": "https://router.feizhu.com/multi/webview?url=https%3A%2F%2Frouter.feizhu.com%2Fws%2F3TXMBk",
+          "source": "fliggy"
+        }
+      ]
+    }
+  ],
+  "costs": {
+    "dining": 1154,
+    "tickets": 30,
+    "transport": 240,
+    "lodging": 548,
+    "total": 1972,
+    "budget": 2700,
+    "surplus": 728,
+    "within_budget": true,
+    "notes": {
+      "dining": "彩点54×3 + 向群88×3 + 又一间56×3 + 上下九街食200整单 + 坚记24×3 + 大鸽饭96×3",
+      "tickets": "陈家祠成人全票¥10×3（携程问道）；沙面/上下九/北京路/天河城免费",
+      "transport": "三日地铁约¥80/人（含广州南往返与体育西跨区）",
+      "lodging": "麗枫¥274×2晚"
+    }
+  },
+  "tips": [
+    "景点与正餐均落在步行 1 km 簇内；跨区（广州南、体育西、北京路）都写了地铁时段。",
+    "9/3 午餐为荔湾早茶（又一间，点评人均¥56），距酒店约 0.9 km，满足「名店早茶且不超过 3 km」。",
+    "9/3 下午体育西+天河城，晚上回到上下九把¥200当作当天晚餐（美食步行街）。",
+    "大鸽饭北京路店笔记多次提到排队 1–2 小时，9/4 请尽早入座，给 17:00 广州南留出地铁时间。",
+    "向群、彩点、观绿的小红书评价有分歧，正文已按实写，不要只看评分。"
+  ],
+  "days": [
+    {
+      "date": "2026-09-02",
+      "theme": "抵穗 · 沙面与上下九",
+      "summary": "08:00 广州南到，不吃早餐；沙面上午、上下九下午，晚餐西关粤菜，入住长寿路。",
+      "slots": [
+        {
+          "time": "08:00-08:50",
+          "type": "transit",
+          "name": "地铁：广州南 → 黄沙/华林寺",
+          "lat": 22.988344,
+          "lng": 113.269097,
+          "address": "石山大道南中15号",
+          "metro": "2号线转8号线",
+          "duration": "约50分钟",
+          "price": "地铁约¥7/人",
+          "review": "出站后先把行李放到酒店（华林寺站，麗枫），再去沙面。",
+          "source": "amap"
+        },
+        {
+          "time": "09:00-11:30",
+          "type": "attraction",
+          "name": "沙面",
+          "lat": 23.108002,
+          "lng": 113.244611,
+          "address": "广州市荔湾区沙面南街60号",
+          "metro": "黄沙站 F 口 / 步行",
+          "price": "免费",
+          "review": "飞猪标记 FREE。租界建筑群，适合落地第一天慢走；半日只安排这一处。",
+          "image": "https://img.alicdn.com/tfscom/TB1aQJuidfJ8KJjy0FeSutKEXXa",
+          "source": "fliggy"
+        },
+        {
+          "time": "11:45-13:15",
+          "type": "dining",
+          "name": "彩点茶楼(宝华路店)",
+          "lat": 23.114532,
+          "lng": 113.241581,
+          "address": "宝华路49号宝华豪庭3楼",
+          "metro": "距沙面约 0.8 km",
+          "price": "¥54/人",
+          "rating": 4.0,
+          "review": "高德 4.7 / 人均约48；点评「彩点(宝华店)」4分 人均¥54 粤式茶点。午餐档 30–60。小红书有宝华店笔记，也有「态度慢、踩点」差评，错峰、对菜单再点。",
+          "source": "amap|dianping|xhs",
+          "recommended_dishes": ["茶点拼盘"],
+          "xiaohongshu": {
+            "notes_count": 2,
+            "recommended_dishes": ["茶点"],
+            "tips": "笔记提到近永庆坊/长寿路或黄沙口；下午 14:00–21:00 有折扣宣传，午餐未必享受。",
+            "source": "xiaohongshu"
+          }
+        },
+        {
+          "time": "11:45-13:15",
+          "type": "dining-alt",
+          "name": "坚记面食店(伊府面)",
+          "lat": 23.118214,
+          "lng": 113.250498,
+          "address": "长寿东路301号",
+          "price": "¥24/人",
+          "rating": 4.0,
+          "review": "高德 4.6；点评 4分 人均¥24 上下九。若彩点排队，改吃伊府面（偏早餐价）。",
+          "source": "amap|dianping"
+        },
+        {
+          "time": "14:00-17:00",
+          "type": "attraction",
+          "name": "上下九步行街",
+          "lat": 23.115079,
+          "lng": 113.248182,
+          "address": "下九路59-60号一带",
+          "metro": "华林寺 / 长寿路",
+          "price": "免费",
+          "review": "飞猪 FREE 文创街区。西关骑楼；今天只逛街，把「美食街晚餐¥200」留到 9/3。距彩点约 0.7 km。",
+          "image": "https://img.alicdn.com/tfscom/TB1n9._eRDH8KJjSszcSuvDTFXa",
+          "source": "fliggy"
+        },
+        {
+          "time": "17:15-17:40",
+          "type": "hotel",
+          "name": "麗枫酒店·广州长寿东路十三行上下九店",
+          "lat": 23.117999,
+          "lng": 113.251798,
+          "address": "光复中路288号光复大厦北门",
+          "metro": "华林寺站",
+          "price": "¥274/晚",
+          "review": "办理入住后出门吃晚饭。距上下九约 0.5 km。",
+          "image": "https://img.alicdn.com/imgextra/i1/6000000001319/O1CN01zdqr991Lc92QLY5hT_!!6000000001319-0-hotel.jpg",
+          "source": "fliggy"
+        },
+        {
+          "time": "18:00-19:30",
+          "type": "dining",
+          "name": "粤·向群饭店(龙津东路总店)",
+          "lat": 23.121747,
+          "lng": 113.251518,
+          "address": "龙津东路853-857号",
+          "metro": "距酒店约 0.4 km",
+          "price": "¥88/人",
+          "rating": 4.0,
+          "review": "高德 4.7 / 约¥101；点评 4分 人均¥88 广州菜，9414 条评。晚餐档 80–100。小红书「五一打卡」称总体有点失望、未必排队，按老字号粤菜预期、别冲网红。",
+          "source": "amap|dianping|xhs",
+          "recommended_dishes": ["粤菜家常"],
+          "xiaohongshu": {
+            "notes_count": 1,
+            "recommended_dishes": [],
+            "tips": "有笔记写 11:15 到店不用排队，口味不及预期。",
+            "source": "xiaohongshu"
+          }
+        },
+        {
+          "time": "18:00-19:30",
+          "type": "dining-alt",
+          "name": "清平饭店·广州第一鸡(陈家祠店)",
+          "lat": 23.125304,
+          "lng": 113.245021,
+          "address": "中山七路扬韬科技广场1号楼2层",
+          "price": "¥91/人",
+          "rating": 4.5,
+          "review": "高德 4.7 / ¥85；点评 4.5 人均¥91。距向群约 0.8 km。小红书「来陈家祠一定要吃的老字号」指向广州第一鸡。",
+          "source": "amap|dianping|xhs",
+          "recommended_dishes": ["广州第一鸡"],
+          "xiaohongshu": {
+            "notes_count": 1,
+            "recommended_dishes": ["广州第一鸡"],
+            "tips": "笔记正文很短，只强调陈家祠旁老字号。",
+            "source": "xiaohongshu"
+          }
+        }
+      ]
+    },
+    {
+      "date": "2026-09-03",
+      "theme": "陈家祠早茶 · 体育西 · 上下九夜宵",
+      "summary": "不吃早餐；上午陈家祠+名店早茶（距酒店<3 km）；下午地铁去体育西/天河城；晚上回上下九美食街，晚餐按¥200整单。",
+      "slots": [
+        {
+          "time": "09:00-11:20",
+          "type": "attraction",
+          "name": "陈家祠",
+          "lat": 23.126703,
+          "lng": 113.245146,
+          "address": "广州市荔湾区中山七路恩龙里34号",
+          "metro": "1/8号线陈家祠站 D 口",
+          "price": "¥10/人",
+          "review": "飞猪 NOT_FREE。携程问道：成人全票¥10，旺季 09:00–18:00、17:30 停止入场；周二闭馆（法定节假日除外）；须实名预约刷身份证。距酒店约 0.9 km。",
+          "image": "https://img.alicdn.com/tfscom/TB1zfmsinvI8KJjSspjSuwgjXXa",
+          "source": "fliggy|ctrip"
+        },
+        {
+          "time": "11:35-13:15",
+          "type": "dining",
+          "name": "又一间茶点轩(中山七路店)",
+          "lat": 23.125349,
+          "lng": 113.248018,
+          "address": "康王中路668号美荔汇3楼",
+          "metro": "陈家祠站 B 口对面，距祠约 0.3 km，距酒店约 0.9 km",
+          "price": "¥56/人",
+          "rating": 4.0,
+          "review": "高德 4.6 / ¥46；点评 4分 人均¥56 粤式茶点。携程问道将其列为荔湾 30–60 元早茶。午餐当早茶。",
+          "source": "amap|dianping|xhs|ctrip",
+          "recommended_dishes": ["五香芋头糕", "酱皇蒸凤爪", "鲜虾红米肠"],
+          "xiaohongshu": {
+            "notes_count": 2,
+            "recommended_dishes": ["五香芋头糕", "酱皇蒸凤爪", "鲜虾红米肠"],
+            "tips": "有「广州早茶计划」打卡；也有中山七路店避雷帖，出品看批次。",
+            "source": "xiaohongshu"
+          }
+        },
+        {
+          "time": "11:35-13:15",
+          "type": "dining-alt",
+          "name": "点都德(大茶楼店)",
+          "lat": 23.123471,
+          "lng": 113.246339,
+          "address": "龙津中路587-589号",
+          "price": "¥77/人",
+          "rating": 5.0,
+          "review": "高德 4.7 / ¥86；点评 5分 人均¥77。略高于午餐 60 上限，作备选。小红书有「逛完陈家祠立刻冲进点都德」。",
+          "source": "amap|dianping|xhs",
+          "recommended_dishes": ["潮州蒸粉果"],
+          "xiaohongshu": {
+            "notes_count": 2,
+            "recommended_dishes": ["潮州蒸粉果"],
+            "tips": "陈家祠店笔记称手作点心，嘉年华活动以到店为准。",
+            "source": "xiaohongshu"
+          }
+        },
+        {
+          "time": "13:30-14:10",
+          "type": "transit",
+          "name": "地铁：陈家祠 → 体育西路",
+          "lat": 23.125727,
+          "lng": 113.246439,
+          "address": "陈家祠地铁站",
+          "metro": "1号线直达体育西路",
+          "duration": "约20分钟",
+          "price": "地铁约¥4/人",
+          "review": "跨区，必须地铁。体育西站 C/D/E 口可进天河城。",
+          "source": "amap"
+        },
+        {
+          "time": "14:15-15:20",
+          "type": "attraction",
+          "name": "体育西路",
+          "lat": 23.131138,
+          "lng": 113.321503,
+          "address": "地铁1/3号线体育西路站",
+          "metro": "体育西路站",
+          "price": "免费",
+          "review": "开放式商圈，携程问道确认无门票。半日第一处。",
+          "source": "amap|ctrip"
+        },
+        {
+          "time": "15:20-17:00",
+          "type": "attraction",
+          "name": "天河城",
+          "lat": 23.132291,
+          "lng": 113.322642,
+          "address": "天河路208号",
+          "metro": "体育西路站 C/D/E，地下通道直达",
+          "price": "免费",
+          "review": "商场作景点；携程问道：无需门票，部分游乐另计。距体育西站约 0.2 km。半日第二处（上限）。",
+          "source": "amap|ctrip"
+        },
+        {
+          "time": "17:10-17:45",
+          "type": "transit",
+          "name": "地铁：体育西路 → 华林寺/长寿路",
+          "lat": 23.131138,
+          "lng": 113.321503,
+          "metro": "1号线转8号线",
+          "duration": "约30分钟",
+          "price": "地铁约¥5/人",
+          "review": "返回荔湾吃上下九。",
+          "source": "amap"
+        },
+        {
+          "time": "18:00-19:30",
+          "type": "dining",
+          "name": "上下九美食步行街（街边晚餐）",
+          "lat": 23.115079,
+          "lng": 113.248182,
+          "address": "下九路 / 第十甫路",
+          "metro": "华林寺 / 长寿路",
+          "price": "¥200整单（3人）",
+          "review": "按需求：当天晚餐不进正餐酒楼，美食街合计¥200。高德周边有皇上皇腊味、坚记等，现场按窗口买，不把全市榜单塞进来。",
+          "source": "amap",
+          "recommended_dishes": ["腊味", "伊府面", "甜品"],
+          "xiaohongshu": {
+            "notes_count": 0,
+            "recommended_dishes": [],
+            "tips": "未对「整条街」做笔记详情，避免编造摊位。",
+            "source": "none"
+          }
+        }
+      ]
+    },
+    {
+      "date": "2026-09-04",
+      "theme": "北京路 · 早午饭当晚餐 · 返广州南",
+      "summary": "只吃早餐和晚餐；上午北京路，下午古道遗址后吃大鸽饭，17:00 前到广州南。",
+      "slots": [
+        {
+          "time": "07:30-08:15",
+          "type": "dining",
+          "name": "坚记面食店(伊府面)",
+          "lat": 23.118214,
+          "lng": 113.250498,
+          "address": "长寿东路301号",
+          "metro": "华林寺站 B 口步行约 290 m，距酒店约 0.1 km",
+          "price": "¥24/人",
+          "rating": 4.0,
+          "review": "高德 4.6 / ¥22；点评 4分 人均¥24。对准早餐约¥20/人。小红书称长寿路老广伊面、米其林相关讨论，也有踩雷帖。",
+          "source": "amap|dianping|xhs",
+          "recommended_dishes": ["猪肠捞伊面", "云吞", "伊府面"],
+          "xiaohongshu": {
+            "notes_count": 2,
+            "recommended_dishes": ["猪肠捞伊面", "云吞", "伊府面"],
+            "tips": "70 年西关面店叙事多；另有「难喫」笔记，出品看批次。",
+            "source": "xiaohongshu"
+          }
+        },
+        {
+          "time": "07:30-08:15",
+          "type": "dining-alt",
+          "name": "六记肠粉(龙津东路店)",
+          "lat": 23.122958,
+          "lng": 113.247658,
+          "address": "龙津东路653号",
+          "price": "¥21/人",
+          "rating": 4.6,
+          "review": "高德 4.6 / ¥21，距坚记约 0.6 km。",
+          "source": "amap"
+        },
+        {
+          "time": "08:20-08:40",
+          "type": "hotel",
+          "name": "麗枫酒店退房",
+          "lat": 23.117999,
+          "lng": 113.251798,
+          "address": "光复中路288号光复大厦北门",
+          "price": "",
+          "review": "行李随身或寄存后去北京路。",
+          "source": "fliggy"
+        },
+        {
+          "time": "08:40-09:05",
+          "type": "transit",
+          "name": "地铁：华林寺 → 北京路/公园前",
+          "lat": 23.117839,
+          "lng": 113.247232,
+          "metro": "8号线转1号线公园前，步行至北京路",
+          "duration": "约25分钟",
+          "price": "地铁约¥3/人",
+          "review": "酒店到北京路直线约 1.7 km，不步行连跳。",
+          "source": "amap"
+        },
+        {
+          "time": "09:10-12:00",
+          "type": "attraction",
+          "name": "北京路步行街",
+          "lat": 23.120946,
+          "lng": 113.267679,
+          "address": "广州市越秀区北京路",
+          "metro": "北京路 / 公园前",
+          "price": "免费",
+          "review": "飞猪 FREE 文创街区。半日第一处。",
+          "image": "https://img.alicdn.com/imgextra/i3/O1CN01TEvfpN1BsUtT0dLF3_!!0-alitrip.jpg",
+          "source": "fliggy"
+        },
+        {
+          "time": "12:10-13:00",
+          "type": "attraction",
+          "name": "千年古道遗址",
+          "lat": 23.124873,
+          "lng": 113.268844,
+          "address": "北京路文化旅游区",
+          "metro": "公园前步行约 230 m",
+          "price": "免费",
+          "review": "与北京路同簇（约 0.4 km），算下午景点，不另跨区。",
+          "source": "fliggy"
+        },
+        {
+          "time": "13:10-15:10",
+          "type": "dining",
+          "name": "大鸽饭(北京路店)",
+          "lat": 23.123237,
+          "lng": 113.266956,
+          "address": "西湖路68号201、301房",
+          "metro": "距北京路约 0.3 km",
+          "price": "¥96/人",
+          "rating": 5.0,
+          "review": "高德 4.7 / ¥85；点评 5分 人均¥96 粤菜馆 24774 评。当天不吃午餐，这一顿当晚餐（80–100 档）。小红书反复写排队 1–2 小时以上，红烧乳鸽是高频点单。",
+          "source": "amap|dianping|xhs",
+          "recommended_dishes": ["红烧乳鸽"],
+          "xiaohongshu": {
+            "notes_count": 2,
+            "recommended_dishes": ["红烧乳鸽", "爆汁红烧鸽皇"],
+            "tips": "有笔记等 2h40、8 道只回购乳鸽；不要晚上到店。",
+            "source": "xiaohongshu"
+          }
+        },
+        {
+          "time": "15:20-16:10",
+          "type": "transit",
+          "name": "地铁：公园前/海珠广场 → 广州南",
+          "lat": 23.120946,
+          "lng": 113.267679,
+          "metro": "2号线直达广州南",
+          "duration": "约45分钟",
+          "price": "地铁约¥7/人",
+          "review": "17:00 车次请 16:10 前到站；雷阵雨天气多留 10 分钟。",
+          "source": "amap"
+        },
+        {
+          "time": "16:10-17:00",
+          "type": "transit",
+          "name": "广州南站候车",
+          "lat": 22.988344,
+          "lng": 113.269097,
+          "address": "石山大道南中15号",
+          "metro": "广州南站",
+          "duration": "候车",
+          "price": "",
+          "review": "17:00 离开广州。",
+          "source": "amap"
+        }
+      ]
+    }
+  ]
+}
