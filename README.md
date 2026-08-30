@@ -54,12 +54,12 @@ node scripts/nearby_dining.js --location=<lng>,<lat> --radius=1000 --min-rating=
 
 | 配套 | 作用 | 额外要求 |
 |------|------|----------|
-| weather-skill | 天气 | 无 key |
-| FlyAI | 景点 / 酒店 / 图 | 申请 API：https://flyai.open.fliggy.com |
-| TripAI（携程问道） | 门票交叉验证 | 申请 API：https://www.ctrip.com/wendao/openclaw |
-| Amap LBS | 坐标、周边餐厅、路线 | 高德开放平台：https://lbs.amap.com/ Web 服务 key |
-| xiaohongshu-skills | 店名笔记 / 推荐菜 | 见下方「小红书」；按该 skill 原文操作 |
-| opencli | 大众点评店名 | Chrome 登录 https://dianping.com |
+| [weather-skill](https://github.com/woodcoal/weather-skill) | 天气 | 无 key |
+| [飞猪](https://github.com/alibaba-flyai/flyai-skill) | 景点 / 酒店 / 图 | 申请 API：https://flyai.open.fliggy.com |
+| [携程](https://github.com/trips-ai/tripai-skill) | 门票交叉验证 | 申请 API：https://www.ctrip.com/wendao/openclaw |
+| [高德地图](https://github.com/AMap-Web/amap-lbs-skill) | 坐标、周边餐厅、路线 | 高德开放平台：https://lbs.amap.com/ Web 服务 key |
+| [小红书](https://github.com/autoclaw-cc/xiaohongshu-skills) | 店名笔记 / 推荐菜 | 见下方「小红书」；按该 skill 原文操作 |
+| [Opencli](https://github.com/jackwener/OpenCLI) | 大众点评店名 | Chrome 登录 https://dianping.com |
 
 ### 1. 前置要求
 
