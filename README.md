@@ -318,7 +318,8 @@ assets/map-engine.js
 
 ### 计划中
 
-- [ ] 数据缓存（减少 API）
+- [ ] 数据缓存（减少 API 的使用）
+- [ ] Agent token
 - [ ] PDF 导出
 - [ ] 多城市联程
 
@@ -326,12 +327,6 @@ assets/map-engine.js
 
 欢迎 Issue 和 Pull Request。
 
-```bash
-python scripts/validate_plan.py path/to/plan.json
-node scripts/generate_html.js path/to/plan.json path/to/plan.html
-```
-
-提交前确认：无密钥、validate 无 FAIL、HTML 由 `generate_html.js` 生成。
 
 ## 📄 许可证
 
@@ -346,6 +341,10 @@ Copyright (c) 2026 Travel Planner Contributors
 - [Leaflet](https://leafletjs.com/) — 地图
 - [OpenStreetMap](https://www.openstreetmap.org/) — 底图
 - [OpenCLI](https://github.com/jackwener/OpenCLI) — 点评等适配器
+- [autoclaw-cc/xiaohongshu-skills](https://github.com/autoclaw-cc/xiaohongshu-skills) — 小红书skill
+- [trips-ai/tripai-skill](https://github.com/trips-ai/tripai-skill) — 携程问道旅行skill
+- [alibaba-flyai/flyai-skill](https://github.com/alibaba-flyai/flyai-skill) — 飞猪旅行搜索skill
+- [AMap-Web/amap-lbs-skill](https://github.com/AMap-Web/amap-lbs-skill) — 高德地图综合服务skill
 
 数据源：
 
@@ -359,6 +358,12 @@ Copyright (c) 2026 Travel Planner Contributors
 
 - Issues: [GitHub Issues](https://github.com/MaxML154/travel-planner/issues)
 - Email: lxd28116@outlook.com
+
+## 🧑‍💻贡献者
+
+[MaxML154](https://github.com/MaxML154)
+Claude Code Skill Creater
+
 
 ---
 
