@@ -319,7 +319,7 @@ assets/map-engine.js
 ### 计划中
 
 - [ ] 数据缓存（减少 API 的使用）
-- [ ] Agent token
+- [ ] Agent token 开销问题（目前请使用较为轻便的模型完成任务）
 - [ ] PDF 导出
 - [ ] 多城市联程
 
