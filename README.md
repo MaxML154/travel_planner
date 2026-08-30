@@ -234,25 +234,20 @@ node scripts/generate_html.js plan.json plan.html
    node scripts/generate_html.js plan.json plan.html
 ```
 
-## 🐙 上传到 GitHub 时选哪个文件夹
-
-**只上传本 skill 目录：**
-
-`H:\Study\travel_plan\.claude\skills\travel-planner`
-
-不要上传整个 `H:\Study\travel_plan`。工作区根目录还含有：
-
-- `env.js`、`.claude/settings.local.json`（可能含 key / 权限白名单）
-- `amap-lbs-skill-*/config.json`（本机 Web 服务 / JS key）
-- 其它配套 skill、广州三日游成品（可选自己另开仓库，不要和密钥混在一起）
-
-本目录已含 `.gitignore` 与 `LICENSE`。上传前在该目录再搜一遍，确认没有 `_tripai_body.json`、`_xhs_cache/`、本机绝对路径。
 
 ## 📂 仓库结构
 
 ```
+.gitignore
 SKILL.md                 # Agent 强制流程
 README.md
+HTML_VISUALIZATION.md
+INTEGRATION_PLAN.md
+TROUBLESHOOTING.md
+discover.sh
+check_services.py
+skill_paths.py
+travel_planner.py
 references/schema.md     # plan.json 字段
 references/geo-rules.md  # 距离阈值
 references/sources.md    # 各 API 怎么拿、怎么调
