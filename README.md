@@ -2,9 +2,9 @@
 
 > 整合飞猪、携程、小红书、高德、大众点评、天气等多数据源，生成深色卡片风格的离线 HTML 旅行计划：天气、预计开销、序号地图节点（介绍 + 跳转高德）、路线详情。
 
-[![Version](https://img.shields.io/badge/version-3.0.0-blue.svg)](https://github.com/MaxML154/travel-planner)
+[![Version](https://img.shields.io/badge/version-1.5.0-blue.svg)](https://github.com/MaxML154/travel-planner)
 [![Python](https://img.shields.io/badge/python-3.7+-green.svg)](https://www.python.org/)
-[![Node.js](https://img.shields.io/badge/node.js-16+-brightgreen.svg)](https://nodejs.org/)
+[![Node.js](https://img.shields.io/badge/node.js-20+-brightgreen.svg)](https://nodejs.org/)
 [![License](https://img.shields.io/badge/license-MIT-orange.svg)](LICENSE)
 
 ## ✨ 特性
